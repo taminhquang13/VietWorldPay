@@ -1,7 +1,45 @@
+.nextPay-bank {
+    margin-bottom: 80px;
+}
+
 .nextpay-title {
     margin: 50px 0;
 
     .title {
         font-weight: 500;
+    }
+}
+
+.neb-list {
+    margin: 0 auto;
+    text-align: center;
+    img {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+.list-bank {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .bank-name {
+        width: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            img {
+                width: 85%;
+                height: 85%;
+            }
+        }
+        
     }
 }
