@@ -1,0 +1,44 @@
+.mission {
+    margin-bottom: 8rem;
+    padding: 4.5rem 0;
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 4rem;
+        color: #1D1D1F;
+        text-align: center;
+    }
+
+    p {
+        font-size: 2.4rem;
+        color: #818181;
+    }
+    .swiper {
+        .swiper-slide {
+            padding-bottom: 6rem;
+        }
+        .swiper-button-next {
+            &::after {
+                content: '';
+            }
+            color: black;
+            font-size: 4rem;
+            bottom: 0;
+            top: auto;
+            right: 15%;
+        }
+    
+        .swiper-button-prev {
+            &::after {
+                content: '';
+            }
+            color: black;
+            font-size: 4rem;
+            bottom: 0%;
+            top: auto;
+            left: 70%;
+        }
+    }
+    
+
+}

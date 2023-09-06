@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .swiper {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style> -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="logo col-2">
+            <a href="#">
+              <img
+                src="https://sandbox.elemisthemes.com/assets/img/logo-dark.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <!-- End logo -->
+          <nav class="navbar navbar-expand-lg navbar-light col-7">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./index.html">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">Giải pháp</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">Hỗ trợ</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="nav-other col-3">
+            <div class="login">Đăng nhập</div>
+            <div class="register">Đăng ký</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="banner-top">
+        <div class="container">
+          <div class="row align-center">
+            <div class="col-6">
+              <h3 class="title m-b-30">
+                Công ty trắc nhiệm hữu hạn Viet World Pay
+              </h3>
+              <p class="m-b-20">
+                Công ty TNHH Viet World Pay là công ty chuyên cung cấp các giải
+                pháp thanh toán toàn diện cho các doanh nghiệp, tổ chức, cá
+                nhân. Với đội ngũ nhân viên giàu kinh nghiệm, chúng tôi tự tin
+                mang đến cho khách hàng giải pháp thanh toán thẻ tốt nhất, an
+                toàn nhất và hiệu quả nhất.
+              </p>
+            </div>
+            <div class="col-6">
+              <img
+                src="./img/painting-mountain-lake-with-mountain-background_188544-9126.avif"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End banner top -->
+      <section class="products flex-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 flex-center">
+              <h2>Sản phẩm chính của Viet World Pay</h2>
+            </div>
+            <div class="col-12 flex-center">
+              <p>
+                Viet World Pay chuyên cung cấp, triển khai POS - Giải pháp thanh
+                toán toàn diện, tiện lợi với hệ thống máy POS hiện đại và nhỏ
+                gọn đặt tại hàng ngàn điểm thanh toán uy tín trên toàn quốc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mission">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mission-title">
+                <h2>Tầm nhìn & Sứ mệnh</h2>
+              </div>
+              <img src="" alt="" />
+            </div>
+            <div class="col-md-6">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <h2 class="m-b-30 text-start">Sứ mệnh</h2>
+                    <p class="text-black">
+                      Viet World Pay mong muốn mang lại giải pháp thanh toán đơn
+                      giản và nhanh chóng cho mọi cá nhân, doanh nghiệp, góp
+                      phần hiện đại hóa hệ thống thanh toán tại Việt Nam. Chúng
+                      tôi luôn nỗ lực để mang đến cho khách hàng những trải
+                      nghiệm thanh toán tốt nhất, an toàn nhất và hiệu quả nhất.
+                      Góp phần giúp các doanh nghiệp bán hiện quả và phục vụ
+                      người tiêu dùng tốt hơn.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <h2 class="m-b-30 text-start">Tầm nhìn</h2>
+                    <p class="text-black">
+                      Trở thành công ty có mạng lưới cung cấp các dịch vụ thanh
+                      toán thẻ số 1 tại Việt Nam và Đông Nam Á, tập trung vào
+                      hai lợi ích cốt lõi dành cho khách hàng là THUẬN TIỆN
+                      trong ử dụng và đem lại LỢI ÍCH cao nhất cho khách hàng.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-button-next">
+                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                </div>
+                <div class="swiper-button-prev">
+                  <span><i class="fa-solid fa-arrow-left-long"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="nextPay-bank">
+        <div class="container">
+          <div class="nextpay-title text-center">
+            <p class="title m-b-16">Các tổ chức thẻ</p>
+            <p class="text-center">
+              VietWorldPay liên kết với hầu hết các Ngân hàng, tổ chức thẻ & tổ
+              chức tài chính để cung cấp cho bạn phương thức thanh toán tốt
+              nhất.
+            </p>
+          </div>
+          <div class="neb-list m-b-25">
+            <img
+              src="https://mpos.vn/assets/%20landingV2/Landing-mPos-V2/mpos-assets/img/group-visa.svg"
+              alt=""
+            />
+          </div>
+          <!-- End neb list -->
+        </div>
+      </section>
+      <section class="nextPay-bank">
+        <div class="container">
+          <div class="nextpay-title text-center">
+            <p class="title m-b-16">Các ngân hàng liên kết</p>
+            <p class="text-center">Chưa biết viết j</p>
+          </div>
+          <ul class="row list-bank">
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/ACB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/BIDV.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/EXB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/FEC.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/hdbank.png" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/HOMEC.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/HSBC.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/ICB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/KLB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/lienvietposbank3.png" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/MB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/MSB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/NAB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/OCB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/PVB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/sacombank.png" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/SBC.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/SEA.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/SHB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/TCB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/TPB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/VCB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/VCCB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/VIB.svg" alt="" />
+              </span>
+            </li>
+            <li class="bank-name">
+              <span>
+                <img src="./img/bank/VPB.svg" alt="" />
+              </span>
+            </li>
+          </ul>
+          <!-- End neb list -->
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="container">
+          <div class="feedback-title">
+            <h2 class="title">
+              <span>Khách hàng</span> nói gì về Viet World Pay
+            </h2>
+          </div>
+          <div class="feedback-content">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="feedback-content-item">
+                    <div class="feedback-content-item-img">
+                      <img
+                        src="https://thumbs.dreamstime.com/b/feedback-concept-image-arrows-blue-chalkboard-background-40378284.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="feedback-content-item-content">
+                      <p class="feedback-content-item-content-txt">
+                        “Viet World Pay là đối tác thanh toán đáng tin cậy của
+                        chúng tôi. Họ luôn đảm bảo rằng các giao dịch được thực
+                        hiện một cách nhanh chóng và hiệu quả. Chúng tôi rất hài
+                        lòng về dịch vụ của họ.”
+                      </p>
+
+                      <div class="profile">
+                        <div class="profile-txt">
+                            <p class="feedback-content-item-content-name">
+                              Nguyễn Văn A
+                            </p>
+                            <p class="feedback-content-item-content-position">
+                              Giám đốc công ty A
+                            </p>
+                        </div>
+                        <img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP_7ro2zHFcuM54W-6hWvQhJCd_R9RFdD-7A&usqp=CAU"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback-content-item">
+                    <div class="feedback-content-item-img">
+                      <img
+                        src="https://thumbs.dreamstime.com/b/feedback-concept-image-arrows-blue-chalkboard-background-40378284.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="feedback-content-item-content">
+                      <p class="feedback-content-item-content-txt">
+                        “Viet World Pay là đối tác thanh toán đáng tin cậy của
+                        chúng tôi. Họ luôn đảm bảo rằng các giao dịch được thực
+                        hiện một cách nhanh chóng và hiệu quả. Chúng tôi rất hài
+                        lòng về dịch vụ của họ.”
+                      </p>
+                      <div class="profile">
+                        <div class="profile-txt">
+                            <p class="feedback-content-item-content-name">
+                              Nguyễn Văn A
+                            </p>
+                            <p class="feedback-content-item-content-position">
+                              Giám đốc công ty A
+                            </p>
+                        </div>
+                        <img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP_7ro2zHFcuM54W-6hWvQhJCd_R9RFdD-7A&usqp=CAU"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback-content-item">
+                    <div class="feedback-content-item-img">
+                      <img
+                        src="https://thumbs.dreamstime.com/b/feedback-concept-image-arrows-blue-chalkboard-background-40378284.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="feedback-content-item-content">
+                      <p class="feedback-content-item-content-txt">
+                        “Viet World Pay là đối tác thanh toán đáng tin cậy của
+                        chúng tôi. Họ luôn đảm bảo rằng các giao dịch được thực
+                        hiện một cách nhanh chóng và hiệu quả. Chúng tôi rất hài
+                        lòng về dịch vụ của họ.”
+                      </p>
+                      <div class="profile">
+                        <div class="profile-txt">
+                            <p class="feedback-content-item-content-name">
+                              Nguyễn Văn A
+                            </p>
+                            <p class="feedback-content-item-content-position">
+                              Giám đốc công ty A
+                            </p>
+                        </div>
+                        <img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP_7ro2zHFcuM54W-6hWvQhJCd_R9RFdD-7A&usqp=CAU"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <form action="#" id="contact-form">
+                <label>Thông tin liên hệ</label>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Họ và tên"
+                    id="name"
+                    name="contact-name"
+                  />
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Số điện thoại"
+                    id="phone"
+                    name="contact-phone"
+                  />
+                  <div class="form-row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <select name="cityId" id="city" class="chosen-sel">
+                          <option value="">-- Tỉnh/ Thành phố --</option>
+
+                          <option value="Hà Nội--vn-hni">Hà Nội</option>
+
+                          <option value="TP.Hồ Chí Minh--vn-hcm">
+                            TP.Hồ Chí Minh
+                          </option>
+
+                          <option value="Cao Bằng--vn-cbg">Cao Bằng</option>
+
+                          <option value="Bắc Ninh--vn-bnh">Bắc Ninh</option>
+
+                          <option value="Hòa Bình--vn-hbh">Hòa Bình</option>
+
+                          <option value="Bắc Giang--vn-bgg">Bắc Giang</option>
+
+                          <option value="Phú Thọ--vn-pto">Phú Thọ</option>
+
+                          <option value="Sơn La--vn-sla">Sơn La</option>
+
+                          <option value="Vĩnh Phúc--vn-vpc">Vĩnh Phúc</option>
+
+                          <option value="Lạng Sơn--vn-lsn">Lạng Sơn</option>
+
+                          <option value="Thái Nguyên--vn-tnn">
+                            Thái Nguyên
+                          </option>
+
+                          <option value="Yên Bái--vn-ybi">Yên Bái</option>
+
+                          <option value="Điện Biên--vn-dbn">Điện Biên</option>
+
+                          <option value="Tuyên Quang--vn-tqg">
+                            Tuyên Quang
+                          </option>
+
+                          <option value="Bắc Kạn--vn-bkn">Bắc Kạn</option>
+
+                          <option value="Lào Cai--vn-lci">Lào Cai</option>
+
+                          <option value="Lai Châu--vn-lcu">Lai Châu</option>
+
+                          <option value="Hà Giang--vn-hgg">Hà Giang</option>
+
+                          <option value="Hưng Yên--vn-hyn">Hưng Yên</option>
+
+                          <option value="Thanh Hóa--vn-tha">Thanh Hóa</option>
+
+                          <option value="Nam Định--vn-ndh">Nam Định</option>
+
+                          <option value="Ninh Bình--vn-nbh">Ninh Bình</option>
+
+                          <option value="Thái Bình--vn-tbh">Thái Bình</option>
+
+                          <option value="Hà Nam--vn-hnm">Hà Nam</option>
+
+                          <option value="Hải Phòng--vn-hpg">Hải Phòng</option>
+
+                          <option value="Hải Dương--vn-hdg">Hải Dương</option>
+
+                          <option value="Quảng Ninh--vn-qnh">Quảng Ninh</option>
+
+                          <option value="Quảng Ngãi--vn-qni">Quảng Ngãi</option>
+
+                          <option value="Quảng Nam--vn-qnm">Quảng Nam</option>
+
+                          <option value="Đà Nẵng--vn-dng">Đà Nẵng</option>
+
+                          <option value="Thừa Thiên Huế--vn-tth">
+                            Thừa Thiên Huế
+                          </option>
+
+                          <option value="Quảng Trị--vn-qti">Quảng Trị</option>
+
+                          <option value="Quảng Bình--vn-qbh">Quảng Bình</option>
+
+                          <option value="Hà Tĩnh--vn-hth">Hà Tĩnh</option>
+
+                          <option value="Nghệ An--vn-nan">Nghệ An</option>
+
+                          <option value="Phú Yên--vn-pyn">Phú Yên</option>
+
+                          <option value="Bình Thuận--vn-btn">Bình Thuận</option>
+
+                          <option value="Ninh Thuận--vn-ntn">Ninh Thuận</option>
+
+                          <option value="Lâm Đồng--vn-ldg">Lâm Đồng</option>
+
+                          <option value="Đăk Nông--vn-dnk">Đăk Nông</option>
+
+                          <option value="Khánh Hòa--vn-kha">Khánh Hòa</option>
+
+                          <option value="Đăk Lăk --vn-dlk">Đăk Lăk</option>
+
+                          <option value="Gia Lai--vn-gli">Gia Lai</option>
+
+                          <option value="Bình Định--vn-bdh">Bình Định</option>
+
+                          <option value="Kon Tum--vn-ktm">Kon Tum</option>
+
+                          <option value="Sóc Trăng--vn-stg">Sóc Trăng</option>
+
+                          <option value="Cà Mau--vn-cmu">Cà Mau</option>
+
+                          <option value="Bạc Liêu--vn-blu">Bạc Liêu</option>
+
+                          <option value="Trà Vinh--vn-tvh">Trà Vinh</option>
+
+                          <option value="Hậu Giang--vn-hag">Hậu Giang</option>
+
+                          <option value="Kiên Giang--vn-kgg">Kiên Giang</option>
+
+                          <option value="Vĩnh Long--vn-vlg">Vĩnh Long</option>
+
+                          <option value="Bến Tre--vn-bte">Bến Tre</option>
+
+                          <option value="Cần Thơ--vn-cto">Cần Thơ</option>
+
+                          <option value="Tiền Giang--vn-tgg">Tiền Giang</option>
+
+                          <option value="Đồng Tháp--vn-dtp">Đồng Tháp</option>
+
+                          <option value="An Giang--vn-agg">An Giang</option>
+
+                          <option value="Bà Rịa - Vũng Tàu--vn-vtu">
+                            Bà Rịa - Vũng Tàu
+                          </option>
+
+                          <option value="Long An--vn-lan">Long An</option>
+
+                          <option value="Đồng Nai--vn-dni">Đồng Nai</option>
+
+                          <option value="Bình Dương--vn-bdg">Bình Dương</option>
+
+                          <option value="Tây Ninh--vn-tnh">Tây Ninh</option>
+
+                          <option value="Bình Phước--vn-bpc">Bình Phước</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="--Quận/Huyện--"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      name="content"
+                      id="content"
+                      cols="15"
+                      rows="3"
+                      placeholder="Lời nhắn"
+                    ></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn">Gửi thông tin</button>
+                  </div>
+                </div>
+              </form>
+              <!-- End Form -->
+            </div>
+            <div class="col-6">
+              <div class="contact-img">
+                <img
+                  src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1013-p-0019d-01-ksi8b5jn.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=253330bb9e52f9afcc6848b6407ecd82"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="row">
+            <div class="col-xl-4 footer-logo-wrap">
+              <div class="footer-logo">
+                <img
+                  src="https://sandbox.elemisthemes.com/assets/img/logo-dark.png"
+                  alt=""
+                />
+              </div>
+              <div class="footer-logo-content">
+                <p class="footer-logo-txt">Công ty TNHH Viet World Pay</p>
+                <p>
+                  Trụ sở: số 35 ngõ 24 Hoàng Quốc Việt, P.Nghĩa Đô, Q.Cầu Giấy,
+                  TP.Hà Nội
+                </p>
+                <p>
+                  Hotline: <a href="#">1900561262</a> - Email:
+                  <a href="#">abcdefgh@gmail.com</a>
+                </p>
+              </div>
+            </div>
+            <!-- End: logo -->
+            <!-- Begin: content -->
+            <div class="col-xl-8 col-md-12 footer-content-wrap">
+              <div class="row flex-center">
+                <div class="col-xl-3 col-md-4 col-sm-12 footer-content">
+                  <h4>Trang chủ</h4>
+                  <div class="footer-content-list">
+                    <ul class="footer-list">
+                      <li class="footer-list-item">
+                        <a href="#" class="footer-list-link"
+                          >Về Viet World Pay</a
+                        >
+                      </li>
+                      <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">Giải pháp</a>
+                      </li>
+                      <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">Tin tức</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-4 col-sm-12 footer-content">
+                  <h4>Hỗ trợ</h4>
+                  <div class="footer-content-list">
+                    <ul class="footer-list">
+                      <li class="footer-list-item">
+                        <a href="#" class="footer-list-link"
+                          >Liên hệ trực tuyến (8h-17h)</a
+                        >
+                      </li>
+                      <li class="footer-list-item">
+                        <a href="#" class="footer-list-link flex-link">
+                          <img src="./img/icon/alarm.png" alt="" />
+                          <span>Thứ 2 - Thứ 7</span>
+                        </a>
+                      </li>
+                      <li class="footer-list-item">
+                        <a href="#" class="footer-list-link flex-link">
+                          <img src="./img/icon/phone_outline.png" alt="" />
+                          <span>1900561252</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-4 col-sm-12 footer-content">
+                  <h4>Liên hệ</h4>
+                  <div class="footer-content-list">
+                    <ul class="footer-list">
+                      <li class="footer-list-item">
+                        <a href="#" class="footer-list-link flex-link">
+                          <img src="./img/icon/mail.png" alt="" />
+                          abcdefgh@gmail.com
+                        </a>
+                      </li>
+                      <li class="footer-list-item">
+                        <a href="#" class="footer-list-link flex-link">
+                          <img src="./img/icon/globe.png" alt="" />
+                          Greenchop.vn
+                        </a>
+                      </li>
+                      <li class="footer-list-item">
+                        <a href="#" class="footer-list-link flex-link">
+                          <img src="./img/icon/map-pin.png" alt="" />
+                          428 Điện Biên Phủ, P11, Quận 10, TPHCM
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End: content -->
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-line"></div>
+          <div class="row social">
+            <div class="col-xl-6 col-lg-6 col-md-6">
+              <div class="footer-copyright">
+                <img src="./img/icon/footer.png" alt="" />
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+              <div class="footer-social">
+                <ul class="social-list">
+                  <li class="social-item">
+                    <a class="social-link" href="https://www.youtube.com/">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="https://www.facebook.com/">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="https://www.instagram.com/">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="https://twitter.com/">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</html>

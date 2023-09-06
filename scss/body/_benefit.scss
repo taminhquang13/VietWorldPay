@@ -1,25 +1,25 @@
 .benefit {
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
 }
 
 .box {
     background: rgba(107, 113, 119, 0.05);
     border-left: 10px solid #008BF4;
     border-radius: 10px;
-    padding: 50px 40px 50px 80px;
+    padding: 5rem 4rem 5rem 8rem;
 
     p {
-        font-size: 16px;
+        font-size: 1.6rem;
     }
 
     .btn-orange {
         background: #EB9422;
         border: none;
-        border-radius: 12px;
+        border-radius: 1.2rem;
         transition: all 0.3s;
         color: #fff !important;
-        padding: 8px 38px;
-        font-size: 16px;
+        padding: 0.8rem 3.8rem;
+        font-size: 1.6rem;
 
         &:hover {
             background: rgba(0, 0, 0, 0.319);
